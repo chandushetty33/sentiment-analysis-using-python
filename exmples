@@ -1,0 +1,33 @@
+"This product is absolutely amazing! I love it!"
+➡ Expected Output: Positive ✅
+"The service was excellent, and the staff was super friendly!"
+➡ Expected Output: Positive ✅
+"I'm so happy with my purchase. Best decision ever!"
+➡ Expected Output: Positive ✅
+"Great experience! Would highly recommend it to everyone."
+➡ Expected Output: Positive ✅
+"The app is very user-friendly and works like a charm!"
+➡ Expected Output: Positive ✅
+"This is the worst product I have ever used. Total waste of money!"
+➡ Expected Output: Negative ❌
+"Customer support was terrible, and they didn't solve my problem."
+➡ Expected Output: Negative ❌
+"I'm extremely disappointed with the quality of this item."
+➡ Expected Output: Negative ❌
+"The service was slow, and my order was completely wrong."
+➡ Expected Output: Negative ❌
+"I regret buying this. It's not worth it at all!"
+➡ Expected Output: Negative ❌
+"It's an okay product, nothing too special about it."
+➡ Expected Output: Neutral ⚖
+"The experience was neither good nor bad. Just average."
+➡ Expected Output: Neutral ⚖
+"I received my order on time. It was as expected."
+➡ Expected Output: Neutral ⚖
+"The app works fine, but there's nothing extraordinary about it."
+➡ Expected Output: Neutral ⚖
+"I tried the service once. It was decent but not memorable."
+➡ Expected Output: Neutral ⚖
+
+python train_model.py
+streamlit run streamlit_app.py
